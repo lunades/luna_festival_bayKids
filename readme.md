@@ -1,8 +1,8 @@
-# luna_festival_bayKids
-Responsive Web Design project by Elise Luna
+# Do it for the BayKids
+Responsive Web Design and branding project by Elise Luna
 
 ## About 
-This website design project was created to advocate for expanding accessible youth programming for low-income communities in the Bay Area. As a part of the "Wraparound Initiative" which emphasizes the importance of fostering supportive, positive, healthy environments for children's development, this festival will raise funds for extracurricular programming. Furthermore, initiatives to support the overall well-being of children and families will be present to provide resources for basic necessities. 
+This project was created to advocate for expanding accessible youth programming for low-income communities in the Bay Area. As a part of the "Wraparound Initiative" which emphasizes the importance of fostering supportive, positive, healthy environments for children's development, this festival will raise funds for extracurricular programming. Furthermore, initiatives to support the overall well-being of children and families will be present to provide resources for basic necessities. 
 
 Highlighting "Oakland-Grown" celebrities who will be the main attraction brings a broad range of support to the event. These headliners are known for their support of extracurricular involvement whether in the arts, sports, theater, and music. Open to all, proceeds of ticket sales and merchandise will go to youth organizations across the Bay.
 
@@ -20,6 +20,7 @@ Link to PDF version of the <a href="https://docs.google.com/document/d/1lHgEGXVk
 
 Branding Guide:
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src=https://www.canva.com/design/DAGD1rtvsE4/S8IQwHdlrJTqLWNZ05KWxQ/view?utm_content=DAGD1rtvsE4&utm_campaign=designshare&utm_medium=link&utm_source=editor allowfullscreen></iframe>
+
 
 Figma wireframe:
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOHSIAzLib4bKGZ0xEuAP8W%2FDo-it-for-the-BayKids-Festival-Website-Design%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D-91%252C211%252C0.06%26t%3DSFLii09XyS0qB3NS-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2%26mode%3Ddesign" allowfullscreen></iframe>
