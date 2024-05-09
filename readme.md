@@ -30,6 +30,6 @@ Figma wireframe:
 
 ## Acknowledgements
 <ul>
-    <li>Link to the various<a href="https://fonts.google.com/selection/embed">Google fontfaces</a> used in the project
-    <li><a href="https://www.freepik.com/free-ai-image/gymnastic-stage-getting-ready-competition_72117917.htm#fromView=search&page=1&position=4&uuid=0a3e4829-3db9-4e94-9349-7a753ea376da">Link to PDF version of Image Attribute Document</a>
+    <li>Link to the various<a href="https://fonts.google.com/selection/embed"> Google fontfaces</a> used in the project
+    <li><a href="https://www.freepik.com/free-ai-image/gymnastic-stage-getting-ready-competition_72117917.htm#fromView=search&page=1&position=4&uuid=0a3e4829-3db9-4e94-9349-7a753ea376da">Link</a> to PDF version of Image Attribute Document
 </ul>

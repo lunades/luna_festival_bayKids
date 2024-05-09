@@ -27,7 +27,25 @@ h1 {
             -.8px  0   0 #000;
 }
 
+.smallHeader {
+    color: #EAC8E9;
+    font-size: 1.5em;
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+        -.8px -.8px 0 #000,
+        0   -.8px 0 #000,
+        .8px -.8px 0 #000,
+        .8px  0   0 #000,
+        .8px  .8px 0 #000,
+        0    .8px 0 #000,
+        -.8px  .8px 0 #000,
+        -.8px  0   0 #000;
+}
+
 h2 {
+    font-size: 3em;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -64,7 +82,8 @@ h3 {
     font-style: normal;
 }
 
-#standard {
+.standard {
+    font-size: 1.1em;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -82,6 +101,9 @@ nav {
 #menu {
     padding-left: 2%;
     padding-top: 0.5%;
+    font-size:1.5em;
+    width: 12%;
+    text-align: center;
 }
 
 #menu a {
@@ -90,12 +112,9 @@ nav {
     flex-wrap: nowrap;
 }
 
-#menu a:active {
-    color: #B1E6BA;
-}
-
 #menu a:hover {
     transform: scale(1.1);
+    color: #bfedc7;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -133,11 +152,13 @@ a {
 }
 
 nav h3 {
+    font-size: 1.3em;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 nav .accentSmall {
+    font-size: 1.3em;
     color: #848484;
 }
 
@@ -146,6 +167,10 @@ nav .accentSmall {
     background-color: aqua;
     width: 90%;
     margin-left: 5%;
+}
+
+#mainContent h2 {
+    font-size: 2em;
 }
 
 .border {
@@ -159,4 +184,20 @@ nav .accentSmall {
     -moz-border-radius: 1.5em;
     -ms-border-radius: 1.5em;
     -o-border-radius: 1.5em;
+}
+
+#pageHead {
+    color: #b1e6ba;
+    font-size: 4em;
+}
+
+#mainContent .accentSmall {
+    font-size: 1.2em;
+    color: #848484;
+}
+
+#mainContent .accentCap {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #848484;
 }
