@@ -1,0 +1,41 @@
+nav {
+    background-color: #EAC8E9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#menu {
+    background-color: rgb(68, 95, 119);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+nav img {
+    height: 7em;
+    width: 100%;
+}
+
+#tix {
+    background-color: aqua;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1.5%;
+}
+
+nav h3 {
+    color: white;
+}
+
+nav .accentSmall {
+    color: #848484;
+}
+
+body {
+    background-color: aliceblue;
+}

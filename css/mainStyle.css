@@ -1,3 +1,4 @@
+/* page setup */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     position: relative;
 }
 
+/* type hierarchy */
 h1 {
         font-family: "Modak", system-ui;
         font-weight: 400;
@@ -68,4 +70,48 @@ h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* navigation bar on pages */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#menu a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+nav img {
+    height: 7em;
+    width: 100%;
+}
+
+#tix {
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1.5%;
+}
+
+nav a {
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .accentSmall {
+    color: #848484;
 }
