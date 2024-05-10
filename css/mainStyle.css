@@ -131,6 +131,10 @@ nav {
     margin-left: -2em;
 }
 
+a:hover #img {
+    transform: scale(1.05);
+}
+
 #tix {
     align-items: center;
     padding-right: 5%;
@@ -164,9 +168,11 @@ nav .accentSmall {
 
 /* main content layout */
 #mainContent {
-    background-color: aqua;
-    width: 90%;
-    margin-left: 5%;
+    /* background-color: aqua; */
+    width: 80%;
+    margin-left: 9%;
+    padding-bottom: 1.8em;
+    padding-top: 1.8em;
 }
 
 #mainContent h2 {
@@ -175,8 +181,11 @@ nav .accentSmall {
 
 .border {
     background-color: #D9D9D9;
-    margin: 1em;
-    padding: 2%;
+    text-align: justify;
+    margin: 1.8em;
+    margin-top: 0.5em;
+    padding: 2.5%;
+    line-height: 2;
     border-style: solid;
     border-width: 0.1em;
     border-radius: 1.5em;

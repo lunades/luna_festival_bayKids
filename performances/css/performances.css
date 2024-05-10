@@ -1,3 +1,58 @@
 body {
     background-color: aliceblue;
 }
+
+h1 {
+    text-align: center;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+#columns .accentCap, #columns h2 {
+    text-align: center;
+}
+
+#columns h2 {
+    color: #848484;
+}
+
+#cOne {
+    width: 33%;
+}
+
+#cTwo {
+    width: 33%;
+}
+
+#cThree {
+    width: 33%;
+}
+
+/* .accentSmall i {
+    text-align: center;
+} */
+
+#smallHeader {
+    text-align: center;
+    font-size: 2em;
+}
+
+#statement {
+    text-align: center;
+    margin-left: 14%;
+    margin-bottom: 10%;
+}
+
+.border {
+    height: 80%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}

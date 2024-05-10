@@ -1,3 +1,53 @@
 body {
     background-color: aliceblue;
 }
+
+h1 { 
+    text-align: center;
+}
+
+
+#columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-left: 6%;;
+}
+
+.partnerCard {
+    width: 70%;
+    height: 28%;
+}
+
+.accentSmall {
+    font-size: xx-small;
+    text-align: justify;
+}
+
+.border {
+    margin: 0;
+}
+
+#mainContent a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainContent img {
+    opacity: 60%;
+}
+
+#mainContent a:visited {
+    color: black;
+}
+
+#mainContent a:hover img {
+    transform: scale(1.05);
+    color: #B3D0DB;
+    opacity: 100%;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
