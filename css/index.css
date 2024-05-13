@@ -18,9 +18,21 @@ h1 {
 
 #bigFlwr {
     position: absolute;
-    top: 46%;
-    left: 24%;
-    width: 50%;
+    top: 45%;
+    left: 8%;
+    width: 90%;
+    z-index: 8;
+}
+
+#sun {
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    width: 40%;
+    z-index: 9;
+}
+
+#home {
     z-index: 9;
 }
 
