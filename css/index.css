@@ -39,22 +39,46 @@ h1 {
     left: -10%;
     width: 35%;
     z-index: 10;
+    animation-name: sun;
+	animation-delay: 0;
+	animation-direction: normal;
+	animation-duration: 15s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: linear;
 }
 
 #cloudOne {
     position: absolute;
     top: 2%;
-    right: 4%;
+    left: 5%;
     width: 15%;
     z-index: 8;
+    animation-name: cloudOne;
+	animation-delay: 0;
+	animation-direction: normal;
+	animation-duration: 20s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
 }
 
 #cloudTwo {
     position: absolute;
-    top: 45%;
-    left: 4%;
+    top: 48%;
+    right: 4%;
     width: 15%;
     z-index: 8;
+    animation-name: cloudTwo;
+	animation-delay: 0;
+	animation-direction: normal;
+	animation-duration: 20s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
 }
 
 #cloudThreeFirst {
@@ -63,6 +87,14 @@ h1 {
     left: 4%;
     width: 15%;
     z-index: 8;
+    animation-name: cloudThreeFirst;
+	animation-delay: 0;
+	animation-direction: normal;
+	animation-duration: 10s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
 }
 
 #cloudThreeSecond{
@@ -71,6 +103,14 @@ h1 {
     right: 4%;
     width: 15%;
     z-index: 8;
+    animation-name: cloudThreeSecond;
+	animation-delay: 0;
+	animation-direction: normal;
+	animation-duration: 9.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
 }
 
 #butterfly {
@@ -89,22 +129,22 @@ h1 {
     z-index: 8;
 }
 
-/* #home {
+#home {
     z-index: 14;
     position: absolute;
-    bottom: -40%;
-    right: 5%;
-    width: 1%;
-} */
+    bottom: -70%;
+    right: 4%;
+    width: 12%;
+} 
 
-/* a {
-    position: absolute;
-    bottom: -40%;
-    right: 5%;
-    z-index: 12;
-} */
-
-
+a:hover #home {
+    transform: scale(110%);
+    transform: translateX(1em);
+    -webkit-transform: translateX(1em);
+    -moz-transform: translateX(1em);
+    -ms-transform: translateX(1em);
+    -o-transform: translateX(1em);
+}
 
 h2 {
     color: white;
@@ -187,3 +227,39 @@ h2 {
     z-index: 12;
 }
 
+@keyframes sun {
+    0%, 100% {rotate: 0deg}
+    50% {rotate: 15deg}
+}
+
+@keyframes cloudOne {
+    0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+    
+    50% { transform: translateX(60em); -webkit-transform: translateX(60em); -moz-transform: translateX(60em); -ms-transform: translateX(60em); -o-transform: translateX(60em); }
+
+    100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+}
+
+@keyframes cloudTwo {
+    0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+    
+    50% { transform: translateX(-60em); -webkit-transform: translateX(-60em); -moz-transform: translateX(-60em); -ms-transform: translateX(-60em); -o-transform: translateX(-60em); }
+
+    100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+}
+
+@keyframes cloudThreeFirst {
+    0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+    
+    50% { transform: translateX(20em); -webkit-transform: translateX(20em); -moz-transform: translateX(25em); -ms-transform: translateX(20em); -o-transform: translateX(20em); }
+
+    100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+}
+
+@keyframes cloudThreeSecond {
+    0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+    
+    50% { transform: translateX(-20em); -webkit-transform: translateX(-20em); -moz-transform: translateX(-20em); -ms-transform: translateX(-20em); -o-transform: translateX(-20em); }
+
+    100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+}
