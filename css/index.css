@@ -14,13 +14,22 @@ h1 {
     text-align: center;
     margin-top: 5%;
     z-index: 10;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    0   -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    1.5px  0   0 #000,
+    1.5px  1.5px 0 #000,
+    0    1.5px 0 #000,
+    -1.5px  1.5px 0 #000,
+    -1.5px  0   0 #000;
 }
 
 #bigFlwr {
     position: absolute;
-    top: 45%;
-    left: 8%;
-    width: 90%;
+    top: 65%;
+    left: 13%;
+    width: 80%;
     z-index: 8;
 }
 
@@ -30,6 +39,22 @@ h1 {
     left: -10%;
     width: 40%;
     z-index: 9;
+}
+
+#cloudOne {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    width: 15%;
+    z-index: 8;
+}
+
+#cloudTwo {
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    width: 15%;
+    z-index: 8;
 }
 
 #home {
@@ -103,10 +128,10 @@ h2 {
     color: #848484;
     text-shadow:none;
     position: absolute;
-    bottom: -80%;
+    bottom: -85%;
     left: 3%;
     width: 25%;
-    font-size: 2.2em;
+    font-size: 2.3em;
 }
 
 a {
