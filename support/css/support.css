@@ -4,25 +4,25 @@ body {
 
 #columns {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction:row;
+    flex-wrap: wrap;
     width: 100%;
+    background-color: blueviolet;
 }
 
 #cOne {
-    width: 45%;
+    width: 40%;
 }
 
 #cTwo {
-    width: 45%;
+    width: 40%;
 }
 
 h2 {
     margin-bottom: 3%;
 }
 
-img {
-    width: 20%;
-    margin-left: 24%;
-    box-shadow: 0 0 0 10px #060606;
+#poster {
+    margin-left: 50%;
+    box-shadow: 0 0 0 20px #060606;
 }
