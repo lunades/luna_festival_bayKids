@@ -30,6 +30,8 @@ Figma wireframe:
 
 ## Acknowledgements
 <ul>
-    <li>Link to the various<a href="https://fonts.google.com/selection/embed"> Google fontfaces</a> used in the project
-    <li><a href="https://www.freepik.com/free-ai-image/gymnastic-stage-getting-ready-competition_72117917.htm#fromView=search&page=1&position=4&uuid=0a3e4829-3db9-4e94-9349-7a753ea376da">Link</a> to PDF version of Image Attribute Document
+    <li>Link<a href="https://fonts.google.com/selection/embed"> to the various Google fontfaces</a> used in the project
+    <li><a href="https://docs.google.com/document/d/1zk8pWi0V_RhdqoHHb7bCIvgavNeWSnfxp4g1KHbZnNA/export?format=pdf">Link</a> to PDF version of Image Attribute Document
+    <li><a href="https://codepen.io/nhitchings/pen/pyWWRa">Link</a> to code attribution for the "hamburger menu" as inspiration for the navigation of the site
+    <li><a href="https://chat.openai.com/share/f863772c-a363-4c06-940b-1821558277b5">Link to AI generated support for implementing javascript code 
 </ul>

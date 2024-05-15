@@ -2,7 +2,7 @@ body {
     background-color: aliceblue;
 }
 
-#columns {
+#columnFirst {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -17,6 +17,41 @@ body {
     width: 45%;
 }
 
+#cThree {
+    width: 45%;  
+}
+
+#columnSecond {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#cFour {
+    width: 45%;
+}
+
+#cFive {
+    width: 45%;
+}
+
+#cSix {
+    width: 45%;
+}
+
+h1 {
+    text-align: center;
+    color: #A5DDAE;
+    font-size: 4em;
+}
+
 h2 {
     margin-bottom: 3%;
+}
+
+img {
+    position: relative;
+    top: -20%;
+    width: 100%;
 }
