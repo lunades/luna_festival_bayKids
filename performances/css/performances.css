@@ -35,9 +35,6 @@ h1 {
     width: 33%;
 }
 
-/* .accentSmall i {
-    text-align: center;
-} */
 
 #smallHeader {
     text-align: center;
@@ -45,8 +42,7 @@ h1 {
 }
 
 #statement {
-    text-align: center;
-    margin-left: 14%;
+    margin-left: 10%;
     margin-bottom: 10%;
 }
 

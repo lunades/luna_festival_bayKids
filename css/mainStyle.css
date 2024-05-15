@@ -97,45 +97,155 @@ nav {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-
-#menu {
-    padding-left: 2%;
-    padding-top: 0.5%;
-    font-size:1.5em;
-    width: 12%;
+ /* CITED CODE */
+.hamburger {
+    position: absolute;
+    box-sizing: border-box;
+    left: 30px;
+    top: 20px;
+    width: 5em;
+    padding: 16px 16px 10px 16px;
+    cursor: pointer;
+    background-color: #EAC8E9;
+    transition: 0.5s ease left;
+    z-index: 2;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+  }
+  
+  .hamburger:hover span {
+    background-color: #FFF;
+  }
+  
+  .hamburger-active .hamburger {
+    left: 300px;
+  }
+  
+  .hamburger-active span.hamurger-second {
+    opacity: 0;
+  }
+  
+  .hamburger-active span.hamurger-first {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+  
+  .hamburger-active span.hamurger-third {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+  
+  .hamburger span {
+    display: block;
+    background-color: #F4EAA4;
+    width: 100%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 8px;
+    height: 6px;
+    margin-bottom: 6px;
+    transition: 0.8s ease all;
+  }
+  
+  .hamburger-menu {
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #EAC8E9;
+    height: 100%;
+    line-height: 3.5;
+    position: absolute;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    overflow: auto;
+    transition: 0.5s ease left;
+    z-index: 1;
+  }
+  
+  .hamburger-active .hamburger-menu {
+    left: 0;
+  }
+  
+  .hamburger-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hamburger-menu .main-links li a {
+    display: block;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,       0.4);
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
     text-align: center;
-}
+    padding: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.5s ease all;
+    transition-delay: inherit;
+    transform: translateY(20px);
+    position: relative;
+    z-index: 2;
+  }
 
-#menu a {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-#menu a:hover {
-    transform: scale(1.1);
+  .hamburger-menu .main-links li a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hamburger-menu .main-links li a:after {
+    background-color: #FFF;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    content: "";
+    z-index: 1;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  
+  .hamburger-menu .main-links li a:hover:after {
+    opacity: .05;
+    height: 100%;
+    border-radius: 0;
+  }
+  
+  .hamburger-menu .main-links li a:hover {
     color: #bfedc7;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+  }
+  
+  .hamburger-active .main-links li a {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
 }
-
-#menuIcon {
-    background-color: #b1e6ba;
-    height: 3em;
-    padding-top: 10%;
-    margin-left: -30%;
-}
+  /* closing CITED CODE */
 
 #logo {
-    height: 7em;
+    height: 6em;
     width: 125%;
-
+    margin-left: 45%;
 }
 
-a:hover #img {
+#logo:hover {
     transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 #tix {
@@ -160,7 +270,7 @@ a {
 
 nav h3 {
     font-size: 1.3em;
-    color: white;
+    color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -213,3 +323,46 @@ nav .accentSmall {
     font-weight: 300;
     color: #848484;
 }
+
+
+/* CITED CODE--Hamburger animations */
+.delay01 {
+    transition-delay: 0.1s;
+  }
+  
+  .delay02 {
+    transition-delay: 0.2s;
+  }
+  
+  .delay03 {
+    transition-delay: 0.3s;
+  }
+  
+  .delay04 {
+    transition-delay: 0.4s;
+  }
+  
+  .delay05 {
+    transition-delay: 0.5s;
+  }
+  
+  .delay06 {
+    transition-delay: 0.6s;
+  }
+  
+  .delay07 {
+    transition-delay: 0.7s
+  }
+  
+  .delay08 {
+    transition-delay: 0.8s;
+  }
+  
+  .delay09 {
+    transition-delay: 0.9s;
+  }
+  
+  .delay1 {
+    transition-delay: 1s;
+  }
+/* End of Cited code */

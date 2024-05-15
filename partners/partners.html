@@ -4,8 +4,8 @@
       <meta charset="UTF-8">
       <title>Partners</title> 
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/partners.css">
       <link rel="stylesheet" href="../css/mainStyle.css">
+      <link rel="stylesheet" href="css/partners.css">
       <!-- font embed -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,15 +14,27 @@
     <body>
       <header>
         <nav>
-          <div id="menu">
-            <img src="../img/menu_icon.png"id="menuIcon">
-              <h3>
-                <a href="../home/home.html">Home</a>
-                <a href="../performances/performances.html">Performances & Activities</a>
-                <a href="partners.html">Non-Profit Partners</a>
-                <a href="../shop/shop.html">Shop</a>
-              </h3>
-            </div>
+                <!-- Cited Code -->
+                <div class="container container-hamburger">
+                  <div class="hamburger-wrapper">
+                    <div class="hamburger">
+                      <span class="hamurger-first"></span>
+                      <span class="hamurger-second"></span>
+                      <span class="hamurger-third"></span>
+                    </div>
+                    <div class="hamburger-menu">
+                      <ul class="main-links">
+                        <h3>
+                        <li class="delay02"><a href="../home/home.html">Home</a></li>
+                        <li class="delay03"><a href="../performances/performances.html">Performances & Activities</a></li>
+                        <li class="delay04"><a href="partners.html">Non-Profit Partners</a></li>
+                        <li class="delay05"><a href="../shop/shop.html">Shop</a></li>
+                      </h3>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Cited code closing -->
               <a href="../index.html">               
                 <img src="../img/baykids_logo.png"id="logo">
               </a>
@@ -103,5 +115,7 @@
           </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/hamburger.js"></script>
     </body>
 </html>
