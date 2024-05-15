@@ -18,7 +18,7 @@ h3 {
     flex-direction: row;
     flex-wrap: nowrap;
     text-align: center;
-    margin-left: 6%;;
+    margin-left: 7%;;
 }
 
 .partnerCard {
@@ -28,7 +28,7 @@ h3 {
 
 .accentSmall {
     font-size: xx-small;
-    text-align: justify;
+    text-align: center;
 }
 
 .border {
