@@ -2,12 +2,44 @@ body {
     background-color: aliceblue;
 }
 
-#mainContent {
-    background-color: aquamarine;
-}
-
 h1 { 
     text-align: center;
     color: #A5DDAE;
     font-size: 4em;
+}
+
+#columns {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+
+}
+
+#mainContent img {
+    width: 100%;
+    opacity: 60%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+
+}
+
+#mainContent img:hover {
+    opacity: 100%;
+}
+
+#cOne {
+    width: 50%;
+}
+
+#cTwo {
+    width: 50%;
+}
+
+p {
+    text-align: center;
 }
