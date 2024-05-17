@@ -1,3 +1,7 @@
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: #B3D0DB;
 }
@@ -25,7 +29,7 @@ h1 {
     -1.5px  0   0 #000;
 }
 
-#bigFlwr {
+#flower {
     position: absolute;
     top: 65%;
     left: 12%;
@@ -153,7 +157,7 @@ h2 {
     z-index: 12;
 }
 
-#wknd {
+#weekend {
     width: 10%;
     color: #8a8a8a;
     font-size: 1.8em;
@@ -204,7 +208,7 @@ h2 {
     z-index: 12;
 }
 
-#lo {
+#location {
     position: absolute;
     bottom: -13%;
     left: 3%;
@@ -262,4 +266,103 @@ h2 {
     50% { transform: translateX(-20em); -webkit-transform: translateX(-20em); -moz-transform: translateX(-20em); -ms-transform: translateX(-20em); -o-transform: translateX(-20em); }
 
     100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+}
+/* media queries for different screen size layout */
+@media screen and (max-width: 600px) 
+{
+    html{
+        font-size: 55%; 
+        max-height: 100vh;
+        overflow: hidden;
+        margin-top: 4%;
+    } 
+
+    #sun {
+        top: -4%;
+        left: -8%;
+    }
+
+    #cloudOne {
+        top: 2%;
+    }
+
+    #cloudTwo {
+        top: 20%;
+    }
+
+    #weekend {
+        top: -2%;
+        right: 7%;
+    }
+
+    #headline {
+        width: 14%;
+        top: 11%;
+        right: 3%;
+    }
+
+    #day {
+        top: 28%;
+    }
+    
+    #time {
+        top: 28%;
+    }
+
+    #flower {
+        top: 37%;
+    }
+
+    #location {
+        top: 42%;
+    }
+
+    #cloudThreeFirst {
+        visibility: hidden;
+        top: 61%;
+        left: 3%;
+    }
+
+    #cloudThreeSecond {
+        visibility: hidden;
+        top: 61%;
+        left: 3%;
+    }
+
+    #gray {
+        font-size:medium;
+        top: 61%;
+        left: 3%;
+    }
+
+    #butterfly {
+        top: 43%;
+        width: 17%
+    }
+
+    #butterflyTwo {
+        top: 53%;
+        width: 15%
+    }
+
+    #home {
+        top: 70%;
+        width: 15%
+    }
+    
+    @keyframes cloudOne {
+        0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+        
+        50% { transform: translateX(33em); -webkit-transform: translateX(33em); -moz-transform: translateX(33em); -ms-transform: translateX(33em); -o-transform: translateX(33em); }
+    
+        100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+    }
+
+    @keyframes cloudTwo {
+        0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+        
+        50% { transform: translateX(-33em); -webkit-transform: translateX(-33em); -moz-transform: translateX(-33em); -ms-transform: translateX(-33em); -o-transform: translateX(-33em); }
+    
+        100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0);}
+    }
 }

@@ -17,7 +17,7 @@ Merging design principles,  HTML/CSS technical skill, and understanding of Youth
 This capstone project required extensive planning to reach optimal execution. Research about the topic was through my overall learning experience in my undergraduate degree in Child and Adolescent Development. Further, the concept development and design aspects required documentation as you may find below:
 <ul>
     <li>Link to PDF version of the <a href="https://docs.google.com/document/d/1lHgEGXVklK5hBA8MlbMVGg-1XrKYdDy3SkDh1efyodU/export?format=pdf">Concept Development Document</a>.
-    <li>Link to low fidelity<a href="https://www.figma.com/proto/OHSIAzLib4bKGZ0xEuAP8W/Do-it-for-the-BayKids-Festival-Website-Design?page-id=0%3A1&type=design&node-id=1-3&viewport=46%2C135%2C0.06&t=GbGdZB2FnREjXrlJ-1&scaling=scale-down&starting-point-node-id=1%3A2"> Figma</a>Wireframe
+    <li>Link to low fidelity<a href="https://www.figma.com/proto/OHSIAzLib4bKGZ0xEuAP8W/Do-it-for-the-BayKids-Festival-Website-Design?page-id=0%3A1&type=design&node-id=1-3&viewport=46%2C135%2C0.06&t=GbGdZB2FnREjXrlJ-1&scaling=scale-down&starting-point-node-id=1%3A2"> Figma </a>Wireframe
     <li>Link to PDF version of the<a href="https://drive.google.com/file/d/15l2RxIsS7xQj9Nc4rSqDHZSnVk1uQu8V/export?format=pdf"> Branding Guide</a>
 </ul>
 
