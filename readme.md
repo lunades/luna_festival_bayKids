@@ -15,13 +15,11 @@ Merging design principles,  HTML/CSS technical skill, and understanding of Youth
 
 ## Supporting Materials
 This capstone project required extensive planning to reach optimal execution. Research about the topic was through my overall learning experience in my undergraduate degree in Child and Adolescent Development. Further, the concept development and design aspects required documentation as you may find below:
-
-Link to PDF version of the <a href="https://docs.google.com/document/d/1lHgEGXVklK5hBA8MlbMVGg-1XrKYdDy3SkDh1efyodU/export?format=pdf">Concept Development Document</a>.
-https://drive.google.com/file/d/15l2RxIsS7xQj9Nc4rSqDHZSnVk1uQu8V/export?format=pdf
-Link to PDF version of the<a href=""> Branding Guide.
-
-Figma wireframe:
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOHSIAzLib4bKGZ0xEuAP8W%2FDo-it-for-the-BayKids-Festival-Website-Design%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D-91%252C211%252C0.06%26t%3DSFLii09XyS0qB3NS-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2%26mode%3Ddesign" allowfullscreen></iframe>
+<ul>
+    <li>Link to PDF version of the <a href="https://docs.google.com/document/d/1lHgEGXVklK5hBA8MlbMVGg-1XrKYdDy3SkDh1efyodU/export?format=pdf">Concept Development Document</a>.
+    <li>Link to low fidelity<a href="https://www.figma.com/proto/OHSIAzLib4bKGZ0xEuAP8W/Do-it-for-the-BayKids-Festival-Website-Design?page-id=0%3A1&type=design&node-id=1-3&viewport=46%2C135%2C0.06&t=GbGdZB2FnREjXrlJ-1&scaling=scale-down&starting-point-node-id=1%3A2"> Figma</a>Wireframe
+    <li>Link to PDF version of the<a href="https://drive.google.com/file/d/15l2RxIsS7xQj9Nc4rSqDHZSnVk1uQu8V/export?format=pdf"> Branding Guide</a>
+</ul>
 
 ## Technical Details
 A technical goal demonstrated in this project is the ability to create an interactive splash page which employs various layering and animation.
@@ -34,10 +32,8 @@ Lastly, the animated elements on the splash page bring a sense of dynamicism as 
 
 ## Acknowledgements
 <ul>
-    <li>Link to low fidelity<a href="https://www.figma.com/proto/OHSIAzLib4bKGZ0xEuAP8W/Do-it-for-the-BayKids-Festival-Website-Design?page-id=0%3A1&type=design&node-id=1-3&viewport=46%2C135%2C0.06&t=GbGdZB2FnREjXrlJ-1&scaling=scale-down&starting-point-node-id=1%3A2">Figma</a>Wireframe
-    <li>Link to PDF version of the<a href="https://drive.google.com/file/d/15l2RxIsS7xQj9Nc4rSqDHZSnVk1uQu8V/export?format=pdf"> Branding Guide</a>
     <li>Link to PDF version of <a href="https://docs.google.com/document/d/1zk8pWi0V_RhdqoHHb7bCIvgavNeWSnfxp4g1KHbZnNA/export?format=pdf">Image Attribute</a> Document
     <li>Link to the various<a href="https://fonts.google.com/selection/embed"> Google Fontfaces</a> used in the project
-    <li>Link to the<a href="https://codepen.io/nhitchings/pen/pyWWRa">Code attribution</a> for the "hamburger menu" as inspiration for the navigation of the site
+    <li>Link to the <a href="https://codepen.io/nhitchings/pen/pyWWRa">Code attribution</a> for the "hamburger menu" as inspiration for the navigation of the site
     <li>Link to<a href="https://chat.openai.com/share/f863772c-a363-4c06-940b-1821558277b5"> AI generated support</a> for implementing javascript code 
 </ul>
