@@ -2,6 +2,41 @@ body {
     background-color: aliceblue;
 }
 
+h1 {
+    text-align: center;
+    color: #B1E6BA;
+    margin-top: 0.3%;
+    font-size: 55pt;
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+        -.8px -.8px 0 #000,
+        0   -.8px 0 #000,
+        .8px -.8px 0 #000,
+        .8px  0   0 #000,
+        .8px  .8px 0 #000,
+        0    .8px 0 #000,
+        -.8px  .8px 0 #000,
+        -.8px  0   0 #000;
+}
+
+.collage {
+    width: 93.5%;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h2 {text-align: center;}
+
 #columns {
     display: flex;
     flex-direction: row;
